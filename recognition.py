@@ -5,6 +5,7 @@ import FaceDetectionModule as fdm
 import mysql.connector
 import numpy as np
 import register_module as rm
+import ui_module as ui
 
 # Initialize face detector with 70% confidence threshold
 detector = fdm.Face_Module(minDetectionCon=0.7)

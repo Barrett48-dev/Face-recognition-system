@@ -9,7 +9,7 @@ while True:
     key = cv2.waitKey(1)
     
     if key == ord('s'):
-        cv2.imwrite("benny3.jpg", img)
+        cv2.imwrite("Barrett.jpg", img)
         print("image Saved")
         break
     
